@@ -1,0 +1,57 @@
+﻿## Build output
+bin/
+obj/
+out/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio
+.vs/
+*.dbmdl
+
+## Visual Studio Code settings
+.vscode/
+
+## JetBrains Rider
+.idea/
+
+## OS-specific files
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## ASP.NET Secrets (user-secrets)
+**/secrets.json
+
+## Environment files
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+## EF Core Migrations Snapshots
+*Migrations/*.Designer.cs
+*Migrations/*ModelSnapshot.cs
+
+## Hangfire
+hangfire.db
+
+## Redis
+dump.rdb
+appendonly.aof
+
+## NuGet packages
+packages/
+*.nupkg
+
+## Others
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
